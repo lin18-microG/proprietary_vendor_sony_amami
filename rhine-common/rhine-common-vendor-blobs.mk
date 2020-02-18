@@ -545,9 +545,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-	vendor/sony/rhine-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 	vendor/sony/rhine-common/proprietary/vendor/lib/soundfx/libsonypostprocbundle.so:system/vendor/lib/soundfx/libsonypostprocbundle.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/soundfx/libsonysweffect.so:system/vendor/lib/soundfx/libsonysweffect.so \
 
