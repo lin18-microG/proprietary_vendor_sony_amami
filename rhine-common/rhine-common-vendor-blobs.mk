@@ -292,6 +292,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+	vendor/sony/rhine-common/proprietary/vendor/lib/hw/audio.primary.msm8974.so:system/vendor/lib/hw/audio.primary.msm8974.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
@@ -317,11 +318,12 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
+	vendor/sony/rhine-common/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+	vendor/sony/rhine-common/proprietary/vendor/lib/libaudioroute.so:system/vendor/lib/libaudioroute.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
@@ -540,6 +542,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
 	vendor/sony/rhine-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+	vendor/sony/rhine-common/proprietary/vendor/lib/soundfx/libsonypostprocbundle.so:system/vendor/lib/soundfx/libsonypostprocbundle.so \
+	vendor/sony/rhine-common/proprietary/vendor/lib/soundfx/libsonysweffect.so:system/vendor/lib/soundfx/libsonysweffect.so \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
