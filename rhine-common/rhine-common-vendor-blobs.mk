@@ -277,6 +277,12 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/vendor/camera/SOI20BS0/snapshot_ctrl.dat:system/vendor/camera/SOI20BS0/snapshot_ctrl.dat \
 	vendor/sony/rhine-common/proprietary/vendor/camera/SOI20BS0/streaming_ctrl.dat:system/vendor/camera/SOI20BS0/streaming_ctrl.dat \
 	vendor/sony/rhine-common/proprietary/vendor/CredentialManagerData:system/vendor/CredentialManagerData \
+	vendor/sony/rhine-common/proprietary/vendor/etc/sony_effect/clearphase_sp_param.bin:system/vendor/etc/sony_effect/clearphase_sp_param.bin \
+	vendor/sony/rhine-common/proprietary/vendor/etc/sony_effect/effect_params.data:system/vendor/etc/sony_effect/effect_params.data \
+	vendor/sony/rhine-common/proprietary/vendor/etc/sony_effect/sforce_param_arm.bin:system/vendor/etc/sony_effect/sforce_param_arm.bin \
+	vendor/sony/rhine-common/proprietary/vendor/etc/sony_effect/sforce_param_qdsp.bin:system/vendor/etc/sony_effect/sforce_param_qdsp.bin \
+	vendor/sony/rhine-common/proprietary/vendor/etc/sony_effect/xloud_param_arm.bin:system/vendor/etc/sony_effect/xloud_param_arm.bin \
+	vendor/sony/rhine-common/proprietary/vendor/etc/sony_effect/xloud_param_qdsp.bin:system/vendor/etc/sony_effect/xloud_param_qdsp.bin \
 	vendor/sony/rhine-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
 	vendor/sony/rhine-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
 	vendor/sony/rhine-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
