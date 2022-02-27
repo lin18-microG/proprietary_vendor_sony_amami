@@ -192,6 +192,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/rhine-common/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
 	vendor/sony/rhine-common/proprietary/lib/libsony_face.so:system/lib/libsony_face.so \
 	vendor/sony/rhine-common/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
+	vendor/sony/rhine-common/proprietary/lib/libtinyalsa_legacy.so:system/lib/libtinyalsa_legacy.so \
 	vendor/sony/rhine-common/proprietary/lib/lib_uncontrolled_rooting_status.so:system/lib/lib_uncontrolled_rooting_status.so \
 	vendor/sony/rhine-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
 	vendor/sony/rhine-common/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
